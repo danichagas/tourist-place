@@ -4,34 +4,78 @@
 
 body {
   background-color: #29292E;
+  letter-spacing: 0.1px;
 }
 
 main {
   background-color: #FFF;
   width: 1120px;
-  height: 3054px;
+  height: 3200px;
   padding: 24px;
   margin: auto;
   border-radius: 20px;
 }
 
-#initial p {
+h1, h2, h3, p {
+  color: #333333;
+}
+
+#title-page p {
   text-transform: uppercase;
   color: #E1624F;
   font-weight: bold;
 }
 
-#initial h1 {
+#title-page h1 {
   margin-bottom: 40px;
+  color: #1B1B1B;
 }
 
-#about img {
+#description img {
   border-radius: 28px;
   padding-bottom: 10px;
 }
 
-#about p {
+#description p {
   font-style: italic;
   color: #333333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.headline {
+  text-transform: uppercase;
+  color: #E1624F;
+  font-weight: bold;
+}
+
+.title-about {
+  color: #333333;
+  margin-bottom: 48px;
+}
+
+#list img {
+  border-radius: 28px;
+}
+
+li {
+  color: #0C51A7;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+
+#li1 {
+  color: #591B98;
+}
+
+#li2 {
+  color: #E5245E;
+}
+
+#li3 {
+  color: #E95E10;
+}
+
+#list-card-p {
   text-align: center;
 }
